@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#titulo-menusuperior{
+    margin-left: 62px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    padding-top: 100px;
+}
+
+#texto-menusuperior{
+    margin-top: 20px;
+    margin-left: 62px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1)
+}
+
+#informacional{
+    background-color: #F9F9F9;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    height: 229px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 171px;
+    margin-right: 171px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#experiencia{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 77px;
+    margin-right: 54px;
+}
+
+#tituloexp{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#textoexp{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+    height: 638px;
+    flex-shrink: 0;
+}
+
+#texto-formulario{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0px 248px 48px 248px;
+    padding-top: 87px;
+}
+
+input{
+    color: rgba(0, 0, 0, 0.30);
+    width: 508px;
+    height: 72px;
+    flex-shrink: 0;
+    margin: 0px 218px 62px 218px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+button{
+    color: #FFF;
+    width: 286px;
+    height: 74px;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #C07212
+}
